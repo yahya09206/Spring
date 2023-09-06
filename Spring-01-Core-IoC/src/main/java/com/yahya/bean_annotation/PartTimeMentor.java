@@ -1,7 +1,7 @@
 package com.yahya.bean_annotation;
 
 public class PartTimeMentor {
-    public void CreateAccount(){
+    public void createAccount(){
         System.out.println("Part Time Mentor is created");
     }
 }
