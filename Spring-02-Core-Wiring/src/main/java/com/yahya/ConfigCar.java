@@ -9,7 +9,7 @@ public class ConfigCar {
     @Bean
     Car car(){
         Car audi = new Car();
-        audi.setName("R8");
+        audi.setMake("R8");
         return audi;
     }
 
@@ -17,6 +17,7 @@ public class ConfigCar {
     Person person(){
         Person p = new Person();
         p.setName("Mikey");
+        p.setCar(car());
         return p;
     }
 }
