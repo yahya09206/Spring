@@ -5,7 +5,8 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Car {
+public class Person {
 
     private String name;
+    private Car car;
 }
