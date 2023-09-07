@@ -1,5 +1,6 @@
 package com.yahya.service;
 
+import com.yahya.model.Comment;
 import com.yahya.proxy.CommentNotificationProxy;
 import com.yahya.repository.CommentRepository;
 
@@ -11,5 +12,10 @@ public class CommentService {
     public CommentService(CommentRepository commentRepository, CommentNotificationProxy commentNotificationProxy) {
         this.commentRepository = commentRepository;
         this.commentNotificationProxy = commentNotificationProxy;
+    }
+
+    public void publishComment(Comment comment){
+        commentRepository.storeComment(comment);
+        commentNotificationProxy.sendComment(comment);
     }
 }
