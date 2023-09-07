@@ -3,7 +3,9 @@ package com.yahya.service;
 import com.yahya.model.Comment;
 import com.yahya.proxy.CommentNotificationProxy;
 import com.yahya.repository.CommentRepository;
+import org.springframework.stereotype.Component;
 
+@Component
 public class CommentService {
 
     private final CommentRepository commentRepository;
