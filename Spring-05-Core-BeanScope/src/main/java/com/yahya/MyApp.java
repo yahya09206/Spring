@@ -23,9 +23,6 @@ public class MyApp {
         System.out.println(commentService1);
 
         // call comment service// why aren't changes being saved
-        // call comment service// why aren't changes being saved
-        System.out.println(commentService != commentService1);
-        System.out.println(commentService != commentService1);
         System.out.println(commentService != commentService1);
     }
 }

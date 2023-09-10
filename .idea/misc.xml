@@ -10,15 +10,19 @@
         <option value="$PROJECT_DIR$/Spring-03-Core-DI/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-04-Abstraction/pom.xml" />
         <option value="$PROJECT_DIR$/../Spring-05-Core-BeanScope/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-05-Core-BeanScope/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-06-BootSpring-Demo/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/../Spring-01-Core-IoC/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/pom.xml" />
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

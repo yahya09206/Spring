@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.yahya</groupId>
-	<artifactId>Spring-06-SpringBoot-Demo</artifactId>
+	<artifactId>Spring-06-BootSpring-Demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Spring-06-SpringBoot-Demo</name>
-	<description>Spring-06-SpringBoot-Demo</description>
+	<name>Spring-06-BootSpring-Demo</name>
+	<description>Spring-06-BootSpring-Demo</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
