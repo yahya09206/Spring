@@ -1,4 +1,4 @@
-package com.yahya.spring07springmvccontroller;
+package com.yahya;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
