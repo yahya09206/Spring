@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class CarController {
 
     @RequestMapping("/info") //localhost:8080/car/info?make=gt3rs&year=2023
-    public String carInfo(@RequestParam String make, RequestParam year, Model model){
+    public String carInfo(@RequestParam String make, @RequestParam Integer year, Model model){
 
         model.addAttribute("make", make);
         model.addAttribute("year", year);
