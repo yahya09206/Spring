@@ -2,6 +2,7 @@ package com.yahya.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
@@ -18,7 +19,7 @@ public class CarController {
     }
 
     @RequestMapping("/info/{make}")
-    public String getCarInfo(@RequestParam String make,  Model model){
+    public String getCarInfo(@PathVariable String make, Model model){
 
         model.addAttribute("make", make);
         return "car/car-info";
