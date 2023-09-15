@@ -18,6 +18,15 @@
         <td>Gender</td>
     </tr>
     </thead>
+
+    <tbody>
+    <tr>
+        <td th:text="${mentors.get(0).firstName}"></td>
+        <td th:text="${mentors.get(0).lastName}"></td>
+        <td th:text="${mentors.get(0).age}"></td>
+        <td th:text="${mentors.get(0).gender}"></td>
+    </tr>
+    </tbody>
 </table>
 </body>
 </html>
