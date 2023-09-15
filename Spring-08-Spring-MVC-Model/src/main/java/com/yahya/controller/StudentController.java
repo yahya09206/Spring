@@ -1,5 +1,6 @@
 package com.yahya.controller;
 
+import com.yahya.model.Student;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,6 +22,11 @@ public class StudentController {
         // random student id
         int studentId = new Random().nextInt();
         model.addAttribute("studentId", studentId);
+
+        Student student = new Student(1, "Mike", "Smith");
+        model.addAttribute("student", student);
+
+
         return "student/welcome";
     }
 }
