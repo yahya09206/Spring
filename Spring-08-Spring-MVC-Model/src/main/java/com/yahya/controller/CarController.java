@@ -9,10 +9,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 @RequestMapping("/car")
 public class CarController {
 
-    @RequestMapping("/info") //localhost:8080
-    public String carInfo(@RequestParam String make, Model model){
+    @RequestMapping("/info") //localhost:8080/car/info?make=gt3rs&year=2023
+    public String carInfo(@RequestParam String make, RequestParam year, Model model){
 
         model.addAttribute("make", make);
+        model.addAttribute("year", year);
         return "car/car-info";
     }
 }
