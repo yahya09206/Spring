@@ -1,5 +1,6 @@
 package com.yahya.model;
 
+import com.yahya.enums.Gender;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
