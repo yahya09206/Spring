@@ -4,6 +4,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import java.util.Random;
+
 @Controller
 public class StudentController {
 
@@ -12,6 +14,13 @@ public class StudentController {
 
         model.addAttribute("name", "Cydeo");
         model.addAttribute("course", "MVC");
+
+        String subject = "Collections";
+        model.addAttribute("subject", subject);
+
+        // random student id
+        int studentId = new Random().nextInt();
+        model.addAttribute("studentId", studentId);
         return "student/welcome";
     }
 }
