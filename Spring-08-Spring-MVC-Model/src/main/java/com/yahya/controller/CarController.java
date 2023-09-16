@@ -18,6 +18,7 @@ public class CarController {
         return "car/car-info";
     }
 
+    // to endpoint using path variable
     @RequestMapping("/info/{make}")
     public String getCarInfo(@PathVariable String make, Model model){
 
