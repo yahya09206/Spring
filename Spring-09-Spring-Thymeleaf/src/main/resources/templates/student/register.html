@@ -17,6 +17,7 @@
 
 <!-- Links -->
 <a th:href="@{https://cydeo.com}">Cydeo Homepage</a><br>
-<a th:href="@{/student/welcome}">Welcome Page</a>
+<a th:href="@{/student/welcome}">Welcome Page</a><br>
+<a th:href="@{/student/welcome(id=${students.get(0).firstName})}">Student Page</a>
 </body>
 </html>
