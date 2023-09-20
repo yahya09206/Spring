@@ -19,5 +19,10 @@
 <a th:href="@{https://cydeo.com}">Cydeo Homepage</a><br>
 <a th:href="@{/student/welcome}">Welcome Page</a><br>
 <a th:href="@{/student/welcome(id=${students.get(0).firstName})}">Student Page</a>
+
+<!--Iteration-->
+<ul>
+    <li th:each="student : ${students}" th:text="${student.firstName}">Student List</li>
+</ul>
 </body>
 </html>
