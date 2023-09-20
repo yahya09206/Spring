@@ -7,6 +7,12 @@
 <body>
 
 <h2>Welcome New Student</h2>
-<h2 th:text="${students}"></h2>
+
+
+<h2 th:text="${students.get(0).firstName}"></h2>
+<h2 th:text="${students.get(0).lastName}"></h2>
+
+<!-- Concatenation-->
+<h2 th:text="${'Welcome ' + students.get(0).firstName}"></h2>
 </body>
 </html>
