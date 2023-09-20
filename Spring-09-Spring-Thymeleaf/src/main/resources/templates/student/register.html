@@ -14,5 +14,9 @@
 
 <!-- Concatenation-->
 <h2 th:text="${'Welcome ' + students.get(0).firstName}"></h2>
+
+<!-- Links -->
+<a th:href="@{https://cydeo.com}">Cydeo Homepage</a><br>
+<a th:href="@{/student/welcome}">Welcome Page</a>
 </body>
 </html>
