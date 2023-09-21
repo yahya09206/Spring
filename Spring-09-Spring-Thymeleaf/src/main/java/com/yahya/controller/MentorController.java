@@ -24,7 +24,7 @@ public class MentorController {
         return "mentor/mentor-register";
     }
 
-    @PostMapping("/register")
+    @PostMapping("/confirm")
     public String showForm2(Model model){
         model.addAttribute("mentor", new Mentor());
 
