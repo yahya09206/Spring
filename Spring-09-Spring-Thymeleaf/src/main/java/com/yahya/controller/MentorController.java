@@ -27,6 +27,6 @@ public class MentorController {
     @PostMapping("/confirm")
     public String showForm2(Model model){
 
-        return "mentor/confirmation";
+        return "mentor/mentor-confirmation";
     }
 }
