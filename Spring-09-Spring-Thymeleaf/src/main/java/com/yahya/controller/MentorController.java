@@ -26,11 +26,7 @@ public class MentorController {
 
     @PostMapping("/confirm")
     public String showForm2(Model model){
-        model.addAttribute("mentor", new Mentor());
 
-        List<String> batchList = Arrays.asList("JD1", "JD2", "JD3");
-        model.addAttribute("batchList", batchList);
-
-        return "mentor/mentor-register";
+        return "mentor/confirmation";
     }
 }
