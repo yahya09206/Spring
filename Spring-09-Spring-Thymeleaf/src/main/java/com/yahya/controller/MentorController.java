@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import java.util.Arrays;
 import java.util.List;
 
+//Lombok Annotations
 @Controller
 @RequestMapping("/mentor")
 public class MentorController {
