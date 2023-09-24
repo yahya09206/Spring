@@ -33,6 +33,7 @@ public class MentorController {
 
         System.out.println(mentor.toString());
 //        return "mentor/mentor-confirmation";
+        // redirect to same page after submitting form
         return "redirect:/mentor/register";
     }
 }
