@@ -31,6 +31,7 @@ public class MentorController {
     @PostMapping("/confirm")
     public String showForm2(@ModelAttribute("mentor") Mentor mentor){
 
+        // print output to server
         System.out.println(mentor.toString());
 //        return "mentor/mentor-confirmation";
         // redirect to same page after submitting form
